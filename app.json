@@ -12,6 +12,38 @@
     "pages/map/map",
     "pages/lxjsq/lxjsq"
   ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/foster.png",
+        "selectedIconPath": "images/foster.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/lxjsq/lxjsq",
+        "iconPath": "images/calendar.png",
+        "selectedIconPath": "/images/calendar.png",
+        "text": "计算器"
+      },
+      {
+        "pagePath": "pages/lyb/lyb",
+        "iconPath": "images/shopping.png",
+        "selectedIconPath": "images/shopping.png",
+        "text": "留言本"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "iconPath": "images/zhang.png",
+        "selectedIconPath": "images/zhang.png",
+        "text": "地图"
+      }
+    ]
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
