@@ -1,6 +1,5 @@
 /* pages/lxjsq/lxjsq.wxss */
 .table{
-  
   overflow: hidden;
   display: flex;
   background-color: #ccc;
