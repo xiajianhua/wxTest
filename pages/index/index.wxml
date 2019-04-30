@@ -1,18 +1,7 @@
 <!--index.wxml-->
-<view class="tr">
-<image src="../../images/baiyun.png" 
-style="width: 358px;" mode ="widthFix"></image>
-</view>
-<view class="tr">
-<image src="../../images/shuiyuan.jpg" 
-style="width: 358px;" mode ="widthFix"></image>
-</view>
-<view class="tr">
-<image src="../../images/shuiyuan3.jpg"
-style="width: 212px;" mode ="widthFix"></image>
-<image src="../../images/shuiyuan1.jpg"
-style="width: 229px;" mode ="widthFix"></image>
-<image src="../../images/shuiyuan2.jpg"
-style="width: 217px;" mode ="widthFix"></image>
-</view>
 
+<view class="tr">
+<image src="../../images/sy3.jpg" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
+<LinkList/>

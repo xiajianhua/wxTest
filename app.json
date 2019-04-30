@@ -1,4 +1,4 @@
-{
+         {
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
@@ -7,10 +7,9 @@
     "pages/orders/orders",
     "pages/Login/login",
     "pages/Tools/tools",
+    "pages/lxjsq/lxjsq",
     "pages/lyb/lyb",
-    "pages/Login/map/map",
-    "pages/map/map",
-    "pages/lxjsq/lxjsq"
+    "pages/map/map"
   ],
   "tabBar": {
     "color": "#7A7E83",
@@ -20,34 +19,34 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "iconPath": "images/foster.png",
-        "selectedIconPath": "images/foster.png",
+        "iconPath": "/images/shouye1.png",
+        "selectedIconPath": "/images/shouye1.png",
         "text": "首页"
       },
       {
-        "pagePath": "pages/lxjsq/lxjsq",
-        "iconPath": "images/calendar.png",
+        "pagePath": "pages/table/table",
+        "iconPath": "/images/calendar.png",
         "selectedIconPath": "/images/calendar.png",
-        "text": "计算器"
+        "text": "列表"
       },
       {
         "pagePath": "pages/lyb/lyb",
-        "iconPath": "images/shopping.png",
-        "selectedIconPath": "images/shopping.png",
-        "text": "留言本"
+        "iconPath": "/images/zhang.png",
+        "selectedIconPath": "/images/zhang.png",
+        "text": "案例"
       },
       {
-        "pagePath": "pages/map/map",
-        "iconPath": "images/zhang.png",
-        "selectedIconPath": "images/zhang.png",
-        "text": "地图"
+        "pagePath": "pages/logs/logs",
+        "iconPath": "/images/dangan1.png",
+        "selectedIconPath": "/images/dangan1.png",
+        "text": "设置"
       }
     ]
   },
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "夏华9702",
+    "navigationBarBackgroundColor": "#ccc",
+    "navigationBarTitleText": "addText",
     "navigationBarTextStyle": "black"
   }
 }

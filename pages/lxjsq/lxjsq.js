@@ -1,41 +1,39 @@
-// pages/lxjsq/lxjsq.js
 Page({
   data: {
-    benjin: '',
-    lixi: '',
-    mon: '',
-    still: [],
-    still1: [],
-
+    a:1000,
+    b:10,
+    c:1,
+    cs:[],
+    cs1:[]
   },
-  userBenjinInput: function (e) {
+  benjin:function(e) {
     this.setData({
-      benjin: e.detail.value
+      a: e.detail.value
     })
   },
-  userLixiInput: function (e) {
+  lixi: function(e) {
     this.setData({
-      lixi: e.detail.value
+      b: e.detail.value
     })
   },
-  userMon: function (e) {
+  jie: function(e) {
     this.setData({
-      mon: e.detail.value,
+      c: e.detail.value
     })
   },
-  jisuan: function (e) {
-    var benjin = this.data.benjin;
-    var lixi = this.data.lixi;
-    var mon = this.data.mon;
-    var still1 = new Array();
-    var still = new Array();
-    var still = this.data.still;
-    for (var i = 0; i < mon; i++) {
-      benjin = (benjin * (lixi / 100)) + benjin * 1;
-      still1[i] = benjin;
+  bindButtonTap: function(e) {
+    var benjin = this.data.a;
+    var lilv = this.data.b;
+    var jie = this.data.c;
+    var cs = new Array();
+    var cs1 = new Array();
+    var cs = this.data.cs;
+    for(var i = 0; i < jie ; i++){
+      benjin = benjin + benjin * (lilv/100)
+      cs1[i] = benjin
     }
     this.setData({
-      still: still1
+      cs : cs1
     })
   }
 })

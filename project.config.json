@@ -14,7 +14,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.0.4",
 	"appid": "wx5d02d408a20a2d40",
-	"projectname": "ECMS",
+	"projectname": "wxTest-cjh",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
