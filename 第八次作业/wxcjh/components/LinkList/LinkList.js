@@ -20,10 +20,6 @@ Component({
         "pagename": "利息计算机",
         "pagetext": "../lxjsq/lxjsq"
       },
-      {
-        "pagename": "地图",
-        "pagetext": "../map/map"
-      }
     ]
   },
 

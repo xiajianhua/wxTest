@@ -1,4 +1,4 @@
-         {
+{
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
@@ -9,7 +9,8 @@
     "pages/Tools/tools",
     "pages/lxjsq/lxjsq",
     "pages/lyb/lyb",
-    "pages/map/map"
+    "pages/map/map",
+    "components/cjh/cjh"
   ],
   "tabBar": {
     "color": "#7A7E83",
@@ -48,5 +49,6 @@
     "navigationBarBackgroundColor": "#ccc",
     "navigationBarTitleText": "addText",
     "navigationBarTextStyle": "black"
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
