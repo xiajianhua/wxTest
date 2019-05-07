@@ -10,7 +10,8 @@
     "pages/lxjsq/lxjsq",
     "pages/lyb/lyb",
     "pages/map/map",
-    "components/cjh/cjh"
+    "components/cjh/cjh",
+    "components/gund/gund"
   ],
   "tabBar": {
     "color": "#7A7E83",
