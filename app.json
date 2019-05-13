@@ -29,19 +29,19 @@
         "pagePath": "pages/table/table",
         "iconPath": "/images/calendar.png",
         "selectedIconPath": "/images/calendar.png",
-        "text": "列表"
+        "text": "留言板"
       },
       {
         "pagePath": "pages/lyb/lyb",
         "iconPath": "/images/zhang.png",
         "selectedIconPath": "/images/zhang.png",
-        "text": "案例"
+        "text": "个人"
       },
       {
         "pagePath": "pages/logs/logs",
         "iconPath": "/images/dangan1.png",
         "selectedIconPath": "/images/dangan1.png",
-        "text": "设置"
+        "text": "地图"
       }
     ]
   },
